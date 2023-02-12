@@ -1,0 +1,17 @@
+{
+	"verbose": true,
+	"preset": "ts-jest/presets/js-with-ts-esm",
+	"extensionsToTreatAsEsm": [
+		".ts"
+	],
+	"testMatch": [
+		"**/*.test.ts"
+	],
+	"transform": {},
+	"moduleNameMapper": {
+		"^(\\.{1,2}/.*)\\.js$": "$1"
+	},
+	"transformIgnorePatterns": [
+		"/node_modules/"
+	]
+}
